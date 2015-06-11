@@ -243,3 +243,402 @@ INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003302s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.005604s ]
 NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
 
+[ 2015-06-08T01:17:09+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:17:18+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:17:21+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:19:13+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:19:14+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005342s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:19:16+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005042s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:19:28+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:19:31+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:21:23+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003085s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:21:40+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:21:48+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008985s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:24:24+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005700s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:25:15+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003962s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:25:35+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004830s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:25:52+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:27:00+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003651s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:27:21+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005352s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:29:09+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005012s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:30:20+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004448s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:30:42+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:30:48+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005274s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:31:46+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:32:19+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004413s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:32:26+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004392s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:32:29+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:33:31+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007111s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:34:38+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003934s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:35:30+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003133s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:35:48+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005371s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:35:50+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007244s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:35:57+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:36:03+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003882s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:36:14+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:36:19+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005446s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:36:23+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005029s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:36:30+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:36:44+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005372s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:37:29+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:37:35+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004052s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:37:39+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006254s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:03+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006169s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:19+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:25+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:30+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004086s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:34+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:37+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:41+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003828s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:51+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:41:55+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005247s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:42:04+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003375s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:45:09+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007923s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:45:29+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003084s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:45:55+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:46:10+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:46:25+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:47:14+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+
+[ 2015-06-08T01:47:37+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+NOTIC: [8] Undefined index: url C:\wamp\www\senmiao\application\Common\Controller\AppframeController.class.php 第 43 行.
+

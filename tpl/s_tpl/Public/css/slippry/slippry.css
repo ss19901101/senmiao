@@ -504,6 +504,20 @@
     font-weight: bold;
     text-align: center;
 }
+.newsTitle{
+      margin:auto;
+      color: #0099FF;
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+  }
+.newsTitle a{
+    margin:auto;
+    color: #0099FF;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
 .newsDate{
     margin:auto;
     width:90px;

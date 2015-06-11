@@ -102,25 +102,14 @@
 	</li><?php endforeach; endif; ?>
 </ul>
 <div class="container">
-
-
-
-	<div>
-		<h1 class="text-center">最新资讯</h1>
-		<h3 class="text-center">Last News</h3>
-	</div>
-	<?php $lastnews=sp_sql_posts("cid:1:$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:listorder desc;limit:3;"); ?>
-	<div class="row">
-		<?php if(is_array($lastnews)): foreach($lastnews as $key=>$vo): $smeta=json_decode($vo['smeta'],true); ?>
         <div class="row">
             <div class="span6">
-                <?php $lastnews=sp_sql_posts("field:post_title,post_excerpt,tid,smeta;order:listorder asc;limit:3;"); ?>
+                <?php $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:listorder asc;limit:3;"); ?>
                 <div class="mainPageBlock">
                     <div class="mainPageBlockTitle">
                         <h1>新闻动态</h1>
                         <a href="#"><h1>MORE</h1></a>
                     </div>
-                    <?php $count=0 ?>
                     <?php if(is_array($lastnews)): foreach($lastnews as $key=>$vo): $smeta=json_decode($vo['smeta'],true); ?>
                         <div class="news">
                             <div class="newsImage">
@@ -131,51 +120,22 @@
                                 </a>
                             </div>
                             <div class="newsDetail">
-                                <a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>">
+                                <div class="newsTitle">
+                                    <a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>">
                                     <?php echo ($vo["post_title"]); ?>
                                 </a>
+                                </div>
+
+                                <div class="newsDate">
+                                  <?php $test=$vo.post_date; echo $test ?>
+                                    <?php echo ($vo["post_date"]); ?>
+
+                                                                   </div>
                             </div>
-                        </div>
-                        <!--       <div class="span4">
-                                    <div class="tc-gridbox">
-                                        <div class="header">
-                                            <div class="item-image">
-                                                <a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>">
-                                                    <?php if(empty($smeta['thumb'])): ?><img src="/senmiao/tpl/s_tpl/Public/images/default_tupian1.png" class="img-responsive" alt="<?php echo ($vo["post_title"]); ?>"/>
-                                                        <?php else: ?>
-                                                        <img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" class="img-responsive img-thumbnail" alt="<?php echo ($vo["post_title"]); ?>" /><?php endif; ?>
-                                                </a>
-                                            </div>
-                                            <h3><a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"></a></h3>
-                                            <hr>
-                                        </div>
-                                        <div class="body">
-                                            <p><a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"><?php echo msubstr($vo['post_excerpt'],0,32);?></a></p>
-                                        </div>
-                                    </div>
-                                </div>  --><?php endforeach; endif; ?>
+                        </div><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>
-		<div class="span3">
-			<div class="tc-gridbox">
-				<div class="header">
-					<div class="item-image">
-						<a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>">
-							<?php if(empty($smeta['thumb'])): ?><img src="/senmiao/tpl/s_tpl/Public/images/default_tupian1.png" class="img-responsive" alt="<?php echo ($vo["post_title"]); ?>"/>
-							<?php else: ?>
-								<img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" class="img-responsive img-thumbnail" alt="<?php echo ($vo["post_title"]); ?>" /><?php endif; ?>
-						</a>
-					</div>
-					<h3><a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"><?php echo ($vo["post_title"]); ?></a></h3>
-					<hr>
-				</div>
-				<div class="body">
-					<p><a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"><?php echo msubstr($vo['post_excerpt'],0,32);?></a></p>
-				</div>
-			</div>
-		</div><?php endforeach; endif; ?>
-	</div>
 <br><br><br>
 <!-- Footer
       ================================================== -->
