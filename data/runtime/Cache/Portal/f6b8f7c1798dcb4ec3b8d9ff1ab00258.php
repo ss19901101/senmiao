@@ -40,7 +40,7 @@
 			#article_content img{height:auto !important}
 		</style>
 	</head>
-<body class="">
+<body class="body-white">
 <?php echo hook('body_start');?>
 <div class="navbar navbar-fixed-top">
    <div class="navbar-inner">
@@ -66,70 +66,46 @@
      </div>
    </div>
  </div>
-<div class="container tc-main">
-	<div class="row">
-		<div class="span9">
-			
+<div class="container tc-main body-white" style="margin-top: 65px">
+    <div class="row">
+        <img src="/senmiao/tpl/s_tpl/Public/images/flash_back.png" class="span12 tc-box">
+    </div>
+    <div class="row" style="margin-top: -20px">
+
+        <ol class="breadcrumb "  style="background-color: #ffffff">
+          <li>
+              <span class="label-inverse"  >您所在的位置：</span>
+          </li>
+
+            <li>
+                <a href="/senmiao">主页</a>
+                <span class="divider">/</span>
+
+            </li>
+            <li>
+                <a href="/senmiao/index.php/page/index/id/21" target="">园林景观</a>
+
+            </li>
+        </ol>
+    </div>
+	<div class="row" style="margin-top: -20px">
+		<div class="span3 tc-box">
+
+
+        </div>
+
+        <div class="span9">
 			<div class="tc-box first-box article-box">
 		    	<h2><?php echo ($post_title); ?></h2>
 		    	<hr>
 		    	<div id="article_content">
 		    	<?php echo ($post_content); ?>
 		    	</div>
-		    	
 		    	<?php echo Comments("posts",$id);?>
 		    </div>
 		    
 		</div>
-		<div class="span3">
-			<div class="tc-box first-box">
-				<div class="headtitle">
-	          		<h2>分享</h2>
-	          	</div>
-	          	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a></div>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"32"},"share":{},"image":{"viewList":["weixin","tsina","qzone","tqq","renren"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","tsina","qzone","tqq","renren"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        	</div>
-        	
-        	<div class="tc-box">
-	        	<div class="headtitle">
-	        		<h2>热门文章</h2>
-	        	</div>
-	        	<div class="ranking">
-	        		<?php $hot_articles=sp_sql_posts("cid:$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:post_hits desc;limit:5;"); ?>
-		        	<ul class="unstyled">
-		        		<?php if(is_array($hot_articles)): foreach($hot_articles as $key=>$vo): $top=$key<3?"top3":""; ?>
-							<li class="<?php echo ($top); ?>"><i><?php echo ($key+1); ?></i><a title="<?php echo ($vo["post_title"]); ?>" href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"><?php echo ($vo["post_title"]); ?></a></li><?php endforeach; endif; ?>
-					</ul>
-				</div>
-			</div>
-			
-			<?php $ad=sp_getad("portal_page_right_aside"); ?>
-			<?php if(!empty($ad)): ?><div class="tc-box">
-	        	<div class="headtitle">
-	        		<h2>赞助商</h2>
-	        	</div>
-	        	<div>
-		        	<?php echo ($ad); ?>
-		        </div>
-			</div><?php endif; ?>
-			
-			<div class="tc-box">
-	        	<div class="headtitle">
-	        		<h2>最新评论</h2>
-	        	</div>
-	        	<div class="comment-ranking">
-	        		<?php $last_comments=sp_get_comments("field:*;limit:0,5;order:createtime desc;"); ?>
-	        		<?php if(is_array($last_comments)): foreach($last_comments as $key=>$vo): ?><div class="comment-ranking-inner">
-	                        <i class="fa fa-comment"></i>
-	                        <a href="<?php echo U('user/index/index',array('id'=>$vo['uid']));?>"><?php echo ($vo["full_name"]); ?>:</a>
-	                        <span><?php echo ($vo["content"]); ?></span>
-	                        <a href="/senmiao/<?php echo ($vo["url"]); ?>#comment<?php echo ($vo["id"]); ?>">查看原文</a>
-	                        <span class="comment-time"><?php echo date('m月d日  H:i',strtotime($vo['createtime']));?></span>
-	                    </div><?php endforeach; endif; ?>
-                </div>
-			</div>
-        	
-		</div>
+
 		
 	</div>
               

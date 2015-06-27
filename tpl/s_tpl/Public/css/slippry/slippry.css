@@ -510,11 +510,12 @@
       font-size: 13px;
       font-weight: bold;
       text-align: center;
-  }
+      width:300px
+}
 .newsTitle a{
     margin:auto;
-    color: #0099FF;
-    font-size: 13px;
+    color: #0099cc;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
@@ -539,7 +540,7 @@
     margin-top: 10px;
     width: 130px;
     float: left;
-    height: 260px;
-    font:16px/1.5 tahoma,arial,sans-serif;
+    height: 280px;
+    font:14px/1.5 tahoma,arial,sans-serif;
     color: #0099FF;
 }

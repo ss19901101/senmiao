@@ -53,7 +53,7 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
 	</foreach>
 </ul>
 <div class="container">
-        <div class="row">
+       <div class="row">
             <div class="span6">
                 <php>
                     $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:listorder asc;limit:3;");
@@ -85,11 +85,7 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
                                 </div>
 
                                 <div class="newsDate">
-                                  <php>
-                                      $test=$vo.post_date;
-                                      echo $test
-                                  </php>
-                                    {$vo.post_date}
+
 
                                                                    </div>
                             </div>
@@ -98,7 +94,30 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
                     </foreach>
                 </div>
             </div>
+            <div class="span6">
+                <div class="mainPageBlock">
+                    <div class="mainPageBlockTitle">
+                        <h1>视频展示</h1>
+                        <a href=""><h1>MORE</h1></a>
+                    </div>
+                    <div class="mainPageBlockConent">
+                        <div class="video">
+                            <embed src="http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XNjcwMDkwNTg4&winType=adshow&isAutoPlay=false" allowFullScreen="true" quality="high" width="300" height="250" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"/>
+                        </div>
+                        <div class="describe">
+                            森淼生态旅游区是国家4A级景区，旅游区融入欧洲园林设计理念，令人心情舒爽、备感轻松;置身其中犹如走进沙旱生植物博物馆，成为银川市郊的天然“氧吧”，是银川市民近郊休闲度假的最佳选择之一。
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+       <div class="row">
+       <div class="row">
+       </div>
+
+
+</div>
+
 <tc_include file="Public:footer"/>
 </div>
 
