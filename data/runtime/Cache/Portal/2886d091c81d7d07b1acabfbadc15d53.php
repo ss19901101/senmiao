@@ -1,9 +1,9 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 	<html>
 	<head>
-		<title><?php echo ($post_title); ?> <?php echo ($site_name); ?> </title>
-		<meta name="keywords" content="<?php echo ($post_keywords); ?>" />
-		<meta name="description" content="<?php echo ($post_excerpt); ?>">
+		<title><?php echo ($site_seo_title); ?> <?php echo ($site_name); ?></title>
+		<meta name="keywords" content="<?php echo ($site_seo_keywords); ?>" />
+		<meta name="description" content="<?php echo ($site_seo_description); ?>">
 			<?php $portal_index_lastnews=2; $portal_hot_articles="1,2"; $portal_last_post="1,2"; $tmpl=sp_get_theme_path(); $default_home_slides=array( array( "slide_name"=>"ThinkCMFX1.6.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/1.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX1.6.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/2.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX1.6.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/3.jpg", "slide_url"=>"", ), ); ?>
 	<meta name="author" content="senmiao">
 	<meta charset="utf-8">
@@ -36,8 +36,33 @@
 		#main-menu-user li.user{display: none}
 	</style>
 	
+		<link href="/senmiao/tpl/s_tpl/Public/css/slippry/slippry.css" rel="stylesheet">
 		<style>
-			#article_content img{height:auto !important}
+			.caption-wraper{position: absolute;left:50%;bottom:2em;}
+			.caption-wraper .caption{
+			position: relative;left:-50%;
+			background-color: rgba(0, 0, 0, 0.54);
+			padding: 0.4em 1em;
+			color:#fff;
+			-webkit-border-radius: 1.2em;
+			-moz-border-radius: 1.2em;
+			-ms-border-radius: 1.2em;
+			-o-border-radius: 1.2em;
+			border-radius: 1.2em;
+			}
+			@media (max-width: 767px){
+				.sy-box{margin: 12px -20px 0 -20px;}
+				.caption-wraper{left:0;bottom: 0.4em;}
+				.caption-wraper .caption{
+				left: 0;
+				padding: 0.2em 0.4em;
+				font-size: 0.92em;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				-ms-border-radius: 0;
+				-o-border-radius: 0;
+				border-radius: 0;}
+			}
 		</style>
 	</head>
 <body class="body-white">
@@ -66,49 +91,73 @@
      </div>
    </div>
  </div>
-<div class="container tc-main body-white" style="margin-top: 65px">
-    <div class="row">
-        <img src="/senmiao/tpl/s_tpl/Public/images/flash_back.png" class="span12 tc-box">
-    </div>
-    <div class="row" style="margin-top: -20px">
 
-        <ol class="breadcrumb "  style="background-color: #ffffff">
-          <li>
-              <span class="label-inverse"  >您所在的位置：</span>
-          </li>
-
-            <li>
-                <a href="/senmiao">主页</a>
-                <span class="divider">/</span>
-
-            </li>
-            <li>
-                <a href="/senmiao/index.php/page/index/id/21" target="">园林景观</a>
-
-            </li>
-        </ol>
-    </div>
-	<div class="row" style="margin-top: -20px">
-		<div class="span3 tc-box">
-
-
-        </div>
-
-        <div class="span9">
-			<div class="tc-box first-box article-box">
-		    	<h2><?php echo ($post_title); ?></h2>
-		    	<hr>
-		    	<div id="article_content">
-		    	<?php echo ($post_content); ?>
-		    	</div>
-		    	<?php echo Comments("posts",$id);?>
-		    </div>
-		    
+<?php $home_slides=sp_getslide("portal_index"); $home_slides=empty($home_slides)?$default_home_slides:$home_slides; ?>
+<ul id="homeslider" class="unstyled">
+	<?php if(is_array($home_slides)): foreach($home_slides as $key=>$vo): ?><li>
+		<div class="caption-wraper">
+			<div class="caption"><?php echo ($vo["slide_name"]); ?></div>
 		</div>
+		<a href="<?php echo ($vo["slide_url"]); ?>"><img src="<?php echo sp_get_asset_upload_path($vo['slide_pic']);?>" alt=""></a>
+	</li><?php endforeach; endif; ?>
+</ul>
+<div class="container">
+       <div class="row">
+            <div class="span6">
+                <?php $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:listorder asc;limit:3;"); ?>
+                <div class="mainPageBlock">
+                    <div class="mainPageBlockTitle">
+                        <h1>新闻动态</h1>
+                        <a href="#"><h1>MORE</h1></a>
+                    </div>
+                    <?php if(is_array($lastnews)): foreach($lastnews as $key=>$vo): $smeta=json_decode($vo['smeta'],true); ?>
+                        <div class="news">
+                            <div class="newsImage">
+                                <a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>">
+                                    <?php if(empty($smeta['thumb'])): ?><img src="/senmiao/tpl/s_tpl/Public/images/default_tupian1.png" class="img-responsive" alt="<?php echo ($vo["post_title"]); ?>"/>
+                                        <?php else: ?>
+                                        <img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" class="img-responsive img-thumbnail" alt="<?php echo ($vo["post_title"]); ?>" /><?php endif; ?>
+                                </a>
+                            </div>
+                            <div class="newsDetail">
+                                <div class="newsTitle">
+                                    <a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>">
+                                    <?php echo ($vo["post_title"]); ?>
+                                </a>
+                                </div>
 
-		
-	</div>
-              
+                                <div class="newsDate">
+
+
+                                                                   </div>
+                            </div>
+                        </div><?php endforeach; endif; ?>
+                </div>
+            </div>
+            <div class="span6">
+                <div class="mainPageBlock">
+                    <div class="mainPageBlockTitle">
+                        <h1>视频展示</h1>
+                        <a href=""><h1>MORE</h1></a>
+                    </div>
+                    <div class="mainPageBlockConent">
+                        <div class="video">
+                            <embed src="http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XNjcwMDkwNTg4&winType=adshow&isAutoPlay=false" allowFullScreen="true" quality="high" width="300" height="250" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"/>
+                        </div>
+                        <div class="describe">
+                            森淼生态旅游区是国家4A级景区，旅游区融入欧洲园林设计理念，令人心情舒爽、备感轻松;置身其中犹如走进沙旱生植物博物馆，成为银川市郊的天然“氧吧”，是银川市民近郊休闲度假的最佳选择之一。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="row">
+       <div class="row">
+       </div>
+
+
+</div>
+
 <br><br><br>
 <!-- Footer
       ================================================== -->
@@ -206,5 +255,20 @@ var GV = {
 	</script>
 
 
+<script src="/senmiao/tpl/s_tpl/Public/js/slippry.min.js"></script>
+<script>
+$(function() {
+	var demo1 = $("#homeslider").slippry({
+		transition: 'fade',
+		useCSS: true,
+		captions: false,
+		speed: 1000,
+		pause: 3000,
+		auto: true,
+		preload: 'visible'
+	});
+});
+</script>
+<?php echo hook('footer_end');?>
 </body>
 </html>
