@@ -12,6 +12,7 @@ var GV = {
     <script src="__ROOT__/statics/js/jquery.js"></script>
     <script src="__ROOT__/statics/js/wind.js"></script>
     <script src="__TMPL__Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="__TMPL__Public/js/jquery.pin.js"></script>
     <script src="__ROOT__/statics/js/frontend.js"></script>
 	<script>
 	$(function(){
@@ -22,7 +23,12 @@ var GV = {
 		},function(){
 			$(this).removeClass("open");
 		});
-		
+
+
+        $(".pined").pin({
+
+        })
+
 		$.post("{:U('user/index/is_login')}",{},function(data){
 			if(data.status==1){
 				if(data.user.avatar){

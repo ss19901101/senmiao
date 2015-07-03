@@ -1,0 +1,14 @@
+[ 2015-07-04T01:24:39+08:00 ] ::1 /senmiao/index.php/Admin/setting/site_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_options` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_options` SET `option_id`='2',`option_name`='site_options',`option_value`='{\"site_name\":\"\\u68ee\\u6dfc\\u96c6\\u56e2\",\"site_host\":\"http:\\/\\/localhost\\/senmiao\\/\",\"site_tpl\":\"s_tpl\",\"site_adminstyle\":\"bluesky\",\"site_icp\":\"\\u65e0\",\"site_admin_email\":\"350988801@qq.com\",\"site_tongji\":\"\",\"site_copyright\":\"\\u68ee\\u6dfc\\u96c6\\u56e2\",\"site_seo_title\":\"\\u7eff\\u8272\\u5065\\u5eb7\\u65b0\\u751f\\u6d3b\",\"site_seo_keywords\":\"\\u68ee\\u6dfc \\u68ee\\u6dfc\\u96c6\\u56e2\",\"site_seo_description\":\"\\u68ee\\u6dfc\\u96c6\\u56e2\\u516c\\u53f8\\u5b98\\u7f51\\u540e\\u53f0\",\"urlmode\":\"1\",\"html_suffix\":\"\",\"comment_time_interval\":60}' WHERE ( option_name='site_options' ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_options` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sp_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sp_options` SET `option_name`='cmf_settings',`option_value`='{\"banned_usernames\":\"\"}' WHERE ( option_name='cmf_settings' ) [ RunTime:0.0002s ]
+

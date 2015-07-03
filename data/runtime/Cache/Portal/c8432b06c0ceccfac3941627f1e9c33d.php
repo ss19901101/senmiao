@@ -38,9 +38,11 @@
 	
 		<style>
 			#article_content img{height:auto !important}
+			#article_content {word-wrap: break-word;}
+    		.btn {margin-top: 33px;}
 		</style>
 	</head>
-<body class="body-white">
+<body class="">
 <?php echo hook('body_start');?>
 <div class="navbar navbar-fixed-top">
    <div class="navbar-inner">
@@ -56,7 +58,7 @@
  $effected_id=""; $filetpl="<a href='\$href' target='\$target'>\$label</a>"; $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="nav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
 
 
-		<div class="pull-right">
+		<div class="pull-right" style="margin-top: -10px">
         	<form method="post" class="form-inline" action="<?php echo U('portal/search/index');?>" style="margin:18px 0;">
 				 <input type="text" class="" placeholder="Search" name="keyword" value="<?php echo I('get.keyword');?>"/>
 				 <input type="submit" class="btn btn-info" value="Go" style="margin:0"/>
@@ -66,49 +68,68 @@
      </div>
    </div>
  </div>
-<div class="container tc-main body-white" style="margin-top: 65px">
+<div class="container tc-main"style="margin-top:50px">
     <div class="row">
-        <img src="/senmiao/tpl/s_tpl/Public/images/flash_back.png" class="span12 tc-box">
-    </div>
-    <div class="row" style="margin-top: -20px">
-
-        <ol class="breadcrumb "  style="background-color: #ffffff">
-          <li>
-              <span class="label-inverse"  >您所在的位置：</span>
-          </li>
-
-            <li>
-                <a href="/senmiao">主页</a>
-                <span class="divider">/</span>
-
-            </li>
-            <li>
-                <a href="/senmiao/index.php/page/index/id/21" target="">园林景观</a>
-
-            </li>
-        </ol>
-    </div>
-	<div class="row" style="margin-top: -20px">
-		<div class="span3 tc-box">
-
-
+        <div class="span12">
+            <img src="/senmiao/tpl/s_tpl/Public/images/flash_back.png" class="span12 tc-box">
         </div>
-
-        <div class="span9">
+    </div>
+	<div class="row">
+		<div class="span9">
 			<div class="tc-box first-box article-box">
-		    	<h2><?php echo ($post_title); ?></h2>
+		    	<h2 style="text-align: center"><?php echo ($post_title); ?></h2>
+		    	<div class="article-infobox" style="text-align: center">
+		    		<span><?php echo ($post_date); ?> by <?php echo ((isset($user_nicename) && ($user_nicename !== ""))?($user_nicename):$user_login); ?></span>
+		    	</div>
 		    	<hr>
 		    	<div id="article_content">
 		    	<?php echo ($post_content); ?>
 		    	</div>
-		    	<?php echo Comments("posts",$id);?>
-		    </div>
-		    
-		</div>
 
+		    	<div>
+					<?php if(!empty($prev)): ?><a href="<?php echo U('article/index',array('id'=>$prev['tid']));?>" class="btn btn-primary pull-left">上一篇</a><?php endif; ?>
+					<?php if(!empty($next)): ?><a href="<?php echo U('article/index',array('id'=>$next['tid']));?>" class="btn btn-warning pull-right">下一篇</a><?php endif; ?>
+    	            <script type="text/javascript" src="/senmiao/tpl/s_tpl/Public/js/qrcode.min.js"></script>
+				</div>
+		    </div>
+		</div>
+		<div class="span3">
+        	<div class="tc-box">
+	        	<div class="headtitle">
+	        		<h2>热门文章</h2>
+	        	</div>
+	        	<div class="ranking">
+	        		<?php $hot_articles=sp_sql_posts("cid:$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:post_hits desc;limit:5;"); ?>
+		        	<ul class="unstyled">
+		        		<?php if(is_array($hot_articles)): foreach($hot_articles as $key=>$vo): $top=$key<3?"top3":""; ?>
+							<li class="<?php echo ($top); ?>"><i><?php echo ($key+1); ?></i><a title="<?php echo ($vo["post_title"]); ?>" href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"><?php echo ($vo["post_title"]); ?></a></li><?php endforeach; endif; ?>
+					</ul>
+				</div>
+			</div>
+            <div class="tc-box">
+                <div class="headtitle">
+                    <h2>最新发布</h2>
+                </div>
+                <?php $last_post=sp_sql_posts("cid:$portal_last_post;field:post_title,post_excerpt,tid,smeta;order:listorder asc;limit:4;"); ?>
+                <div class="posts">
+                    <?php if(is_array($last_post)): foreach($last_post as $key=>$vo): $smeta=json_decode($vo['smeta'],true); ?>
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <a class="img-wraper" href="<?php echo U('article/index',array('id'=>$vo['tid']));?>">
+                                    <?php if(empty($smeta['thumb'])): ?><img src="/senmiao/tpl/s_tpl/Public/images/default_tupian4.png" class="img-responsive" alt="<?php echo ($vo["post_title"]); ?>"/>
+                                        <?php else: ?>
+                                        <img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" class="img-responsive img-thumbnail" alt="<?php echo ($vo["post_title"]); ?>" /><?php endif; ?>
+                                </a>
+                            </dt>
+                            <dd><a href="<?php echo leuu('article/index',array('id'=>$vo['tid']));?>"><?php echo msubstr($vo['post_excerpt'],0,32);?></a></dd>
+                        </dl><?php endforeach; endif; ?>
+                </div>
+            </div>
+		</div>
 		
 	</div>
-              
+</div>
+
 <br><br><br>
 <!-- Footer
       ================================================== -->
@@ -128,7 +149,7 @@
       <div id="backtotop"><i class="fa fa-arrow-circle-up"></i></div>
       <?php echo ($site_tongji); ?>
 
-</div>
+
 
 <script type="text/javascript">
 //全局变量
@@ -144,6 +165,7 @@ var GV = {
     <script src="/senmiao/statics/js/jquery.js"></script>
     <script src="/senmiao/statics/js/wind.js"></script>
     <script src="/senmiao/tpl/s_tpl/Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/senmiao/tpl/s_tpl/Public/js/jquery.pin.js"></script>
     <script src="/senmiao/statics/js/frontend.js"></script>
 	<script>
 	$(function(){
@@ -154,7 +176,12 @@ var GV = {
 		},function(){
 			$(this).removeClass("open");
 		});
-		
+
+
+        $(".pined").pin({
+
+        })
+
 		$.post("<?php echo U('user/index/is_login');?>",{},function(data){
 			if(data.status==1){
 				if(data.user.avatar){

@@ -30,6 +30,13 @@ margin-left: 0px;
 	padding:5px 10px;
 	margin: 10px 0;
 }
+.nav-left{
+    background: #fff;
+
+    padding:10px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .tc-box.first-box{
 	margin:0 0 10px 0;
 }
