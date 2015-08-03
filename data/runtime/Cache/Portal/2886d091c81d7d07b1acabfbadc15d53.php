@@ -23,6 +23,7 @@
 	<link rel="icon" href="/senmiao/tpl/s_tpl/Public/images/logo.bmp" type="image/x-icon">
 	<link rel="shortcut icon" href="/senmiao/tpl/s_tpl/Public/images/logo.bmp" type="image/x-icon">
     <link href="/senmiao/tpl/s_tpl/Public/simpleboot/themes/cmf/theme.min.css" rel="stylesheet">
+    <link href="/senmiao/tpl/s_tpl/Public/css/slippry/slippry.css" rel="stylesheet">
     <link href="/senmiao/tpl/s_tpl/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/senmiao/tpl/s_tpl/Public/simpleboot/font-awesome/4.2.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
 	<!--[if IE 7]>
@@ -36,7 +37,7 @@
 		#main-menu-user li.user{display: none}
 	</style>
 	
-		<link href="/senmiao/tpl/s_tpl/Public/css/slippry/slippry.css" rel="stylesheet">
+
 		<style>
 			.caption-wraper{position: absolute;left:50%;bottom:2em;}
 			.caption-wraper .caption{
@@ -193,7 +194,15 @@ var GV = {
     <script src="/senmiao/statics/js/jquery.js"></script>
     <script src="/senmiao/statics/js/wind.js"></script>
     <script src="/senmiao/tpl/s_tpl/Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/senmiao/tpl/s_tpl/Public/js/jquery.pin.js"></script>
     <script src="/senmiao/statics/js/frontend.js"></script>
+    <script src="/senmiao/tpl/s_tpl/Public/js/FancyZoom.js "></script>
+    <script src="/senmiao/tpl/s_tpl/Public/js/FancyZoomHTML.js"></script>
+    <script >
+         $(document).ready(function(){
+             setupZoom();
+         })
+    </script>
 	<script>
 	$(function(){
 		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
@@ -203,7 +212,12 @@ var GV = {
 		},function(){
 			$(this).removeClass("open");
 		});
-		
+
+
+        $(".pined").pin({
+
+        })
+
 		$.post("<?php echo U('user/index/is_login');?>",{},function(data){
 			if(data.status==1){
 				if(data.user.avatar){

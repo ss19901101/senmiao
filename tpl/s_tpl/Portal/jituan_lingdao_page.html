@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$post_title} {$site_name} </title>
+		<meta name="keywords" content="{$post_keywords}" />
+		<meta name="description" content="{$post_excerpt}">
+        <tc_include file="Public:scripts"/>
+        <tc_include file="Public:head" />
+
+		<style>
+			#article_content img{height:auto !important}
+            .contentBlock img{width: 180px;height: 360px}
+            .contentBlock {width:180px;height:360px;float:left;position:relative;overflow:hidden;margin-left:3px; margin-right: 80px}
+            .contentBlock .txt{width:156px;height:100px;background:rgba(165,182,209,0.7); position:absolute;left:0px;bottom:8px;padding:0 14px;border-top:2px solid #009fff;}
+            .contentBlock .txt h3{color:#009fff;font-size:24px;font-weight:100;margin:10px 0 6px 0;}
+            .contentBlock h4{color:#000;font-size:14px;font-weight:100;}
+            .contentBlock .txt p{color:#000;margin-top:20px;padding-top:12px;border-top:1px solid #009fff; width: 144px}
+		</style>
+	</head>
+<body class="body-white">
+<tc_include file="Public:nav" />
+<div class="container tc-main body-white " style="margin-top: 65px">
+    <div class="row ">
+        <img src="__TMPL__Public/images/flash_back.png" class="span12 tc-box">
+    </div>
+	<div class="row" style="margin-top: 0px">
+		<div class="span3  nav-left " style=" ">
+                <div class="nav-collapse collapse pined "  style="margin-top: 20px;font-size: 16px  ">
+                    <h3 style="color:#1963aa ">集团介绍</h3>
+                    <?php
+                    $id=3;
+			        $effected_id=4;
+			        $myid=3;
+		  	        $filetpl="<a href='\$href' target='\$target'>\$label</a>";
+                    $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>";
+                    $ul_class="dropdown-menu" ;
+                    $li_class="" ;
+                    $style="nav nav-list ";
+                    $showlevel=6;
+                    $dropdown='dropdown';
+                    echo sp_get_menu(6,$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+                    ?>
+
+
+            </div>
+
+        </div>
+
+        <div class="span9">
+			<div class="tc-box first-box article-box">
+		    	<h2>{$post_title}</h2>
+		    	<hr>
+		    	<div id="article_content">
+
+		    	{$post_content}
+		    	</div>
+		    </div>
+		    
+		</div>
+
+		
+	</div>
+              
+<tc_include file="Public:footer"/>
+</div>
+
+<script>
+    $(function(){
+        $(".contentBlock").hover(function(){
+            $(this).children(".txt").stop().animate({height:"360px"},200);
+            $(this).find(".txt h3").stop().animate({paddingTop:"50"},550);
+            $(this).find(".txt p").stop().show();
+        },function(){
+            $(this).children(".txt").stop().animate({height:"100px"},200);
+            $(this).find(".txt h3").stop().animate({paddingTop:"0px"},550);
+            $(this).find(".txt p").stop().hide();
+        })
+    })
+</script>
+</body>
+</html>

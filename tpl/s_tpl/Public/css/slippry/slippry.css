@@ -462,12 +462,15 @@
     margin-bottom: 30px;
 }
 .mainPageBlockTitle{
-    height: 30px;
+    height: 50px;
+    border-bottom: 1px solid #428bca;
+    margin-top: 20px;
 }
 .mainPageBlockTitle a{
     float:left;
     margin:0px;
     width: 80px;
+
 }
 .mainPageBlockTitle a h1{
     margin:0px;
@@ -477,7 +480,7 @@
 }
 
 .mainPageBlockTitle h1{
-    color:#0099FF;
+    color:#428bca;
     margin: 0px;
     padding-right: 260px;
     float:left;
@@ -486,7 +489,7 @@
 .news{
     margin-top:5px;
     height: 90px;
-    border-bottom: 1px #0099FF dashed;
+    border-bottom: 1px #428bca dashed;
 }
 .newsImage{
     float: left;
@@ -506,7 +509,7 @@
 }
 .newsTitle{
       margin:auto;
-      color: #0099FF;
+      color: #428bca;
       font-size: 13px;
       font-weight: bold;
       text-align: center;
@@ -514,7 +517,7 @@
 }
 .newsTitle a{
     margin:auto;
-    color: #0099cc;
+    color: #428bca;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -542,5 +545,12 @@
     float: left;
     height: 280px;
     font:14px/1.5 tahoma,arial,sans-serif;
-    color: #0099FF;
+    color: #428bca;
+}
+.zizhiBlock{
+    width: 330px;
+    height:250px;
+    float: left;
+    margin-left:30px ;
+    margin-bottom:40px;
 }
