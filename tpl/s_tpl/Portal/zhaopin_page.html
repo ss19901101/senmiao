@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$post_title} {$site_name} </title>
+		<meta name="keywords" content="{$post_keywords}" />
+		<meta name="description" content="{$post_excerpt}">
+		<tc_include file="Public:head" />
+        <script src="__TMPL__Public/js/jquery-ui.min.js">
+
+        </script>
+		<style>
+			#article_content img{height:auto !important}
+		</style>
+	</head>
+<body class="body-white">
+<tc_include file="Public:nav" />
+<div class="container tc-main body-white" style="margin-top: 65px">
+    <div class="row">
+        <img src="__TMPL__Public/images/flash_back.png" class="span12 tc-box">
+    </div>
+	<div class="row" style="margin-top: -20px">
+	    <div class="span9">
+			<div class="tc-box first-box article-box">
+		    	<h2>{$post_title}</h2>
+		    	<hr>
+		    	<div id="article_content">
+		    	{$post_content}
+		    	</div>
+
+		    </div>
+		    
+		</div>
+
+		
+	</div>
+              
+<tc_include file="Public:footer"/>
+</div>
+
+<tc_include file="Public:scripts"/>
+</body>
+</html>

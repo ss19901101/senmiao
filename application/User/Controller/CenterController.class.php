@@ -20,3 +20,4 @@ class CenterController extends MemberbaseController {
     	$this->display(':center');
     }
 }
+?>

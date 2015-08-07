@@ -68,9 +68,9 @@ margin-left: 0px;
 	cursor: pointer;
 }
 .tc-gridbox:hover{ border: solid 1px #ccc;
--webkit-box-shadow: 0 5px 5px 0 rgba(50,50,50,0.1);
--moz-box-shadow: 0 5px 5px 0 rgba(50,50,50,0.1);
-box-shadow: 0 5px 5px 0 rgba(50,50,50,0.1);
+    -webkit-box-shadow: 0 5px 5px 0 rgba(50,50,50,0.1);
+    -moz-box-shadow: 0 5px 5px 0 rgba(50,50,50,0.1);
+    box-shadow: 0 5px 5px 0 rgba(50,50,50,0.1);
 
 }
 .tc-gridbox a{text-decoration: none;}

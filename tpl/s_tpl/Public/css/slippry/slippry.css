@@ -453,6 +453,24 @@
   -o-transition: padding 600ms ease;
   transition: padding 600ms ease;
 }
+.mainPageBigBlock{
+background-color: #f8f8f8 ;
+margin-bottom: -50px;
+margin-top: 75px;
+}
+.mainPageBigBlockTitle{
+   padding-top: 10px;
+   padding-left: 40px;
+   margin-bottom: -10px;
+}
+.mainPageBigBlockTitle h1{
+    font-family: NSimSun;
+    color:#000;
+    margin: 0px;
+    padding-right: 20px;
+    float:left;
+    font-size: 24px;
+}
 .mainPageBlock{
     padding-top: 10px;
     float:left;
@@ -462,10 +480,82 @@
     margin-bottom: 30px;
 }
 .mainPageBlockTitle{
+    font-family:NSimSun;
     height: 50px;
     border-bottom: 1px solid #428bca;
     margin-top: 20px;
 }
+
+.littleBlock {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: #fff;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.littleBlock .header {
+    padding: 3px 6px 3px 6px;
+    background: #fff;
+}
+.littleBlock .footer {
+    padding: 3px 6px 3px 6px;
+    text-align: right;
+    background: #fff;
+}
+.littleBlock .header .item-image{
+    overflow: hidden;
+}
+.littleBlock .header img {
+    margin-bottom: 5px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.littleBlock .header img:hover {
+
+    -webkit-transform: scale(1.2) rotate(2deg);
+    -moz-transform: scale(1.2) rotate(2deg);
+    -o-transform: scale(1.2) rotate(2deg);
+    -ms-transform: scale(1.2) rotate(2deg);
+    transform: scale(1.2) rotate(2deg);
+}
+.littleBlock .header h3 {
+    color: #009fff;
+    margin: 0 5px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 24px;
+}
+.littleBlock .header h3 a,
+.littleBlock .header h3 a:focus,
+.littleBlock .header h3 a:hover {
+    color: #428bca;
+    white-space: nowrap;
+}
+.littleBlock .header .meta {
+    color: #009fff;
+}
+.littleBlock .header hr {
+    border-top-color: #ced5db;
+    border-bottom: none;
+    margin: 5px 0;
+}
+.littleBlock .body {
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-bottom: 14px;
+    color: #343a3f;
+}
+.littleBlock .body a{color: #666;}
+.littleBlock .body a:hover{color: #428bca;}
+
 .mainPageBlockTitle a{
     float:left;
     margin:0px;
@@ -476,15 +566,15 @@
     margin:0px;
     padding-left: 0px;
     padding-top:4px;
-    font-size: 20px
+    font-size: 18px
 }
 
 .mainPageBlockTitle h1{
     color:#428bca;
     margin: 0px;
-    padding-right: 260px;
+    padding-right: 300px;
     float:left;
-    font-size: 30px;
+    font-size: 24px;
 }
 .news{
     margin-top:5px;

@@ -28,7 +28,7 @@ class LoginController extends HomeBaseController {
 	
 	function doforgot_password(){
 		if(IS_POST){
-			if(!sp_check_verify_code()){
+			if($_SESSION['_verify_']['verify']!=strtolower($_POST['verify'])){
 				$this->error("验证码错误！");
 			}else{
 				$users_model=M("Users");
@@ -45,6 +45,7 @@ class LoginController extends HomeBaseController {
 					$find_user=$users_model->where(array("user_email"=>$email))->find();
 					if($find_user){
 						$this->_send_to_resetpass($find_user);
+						$_SESSION['_verify_']['verify']="";
 						$this->success("密码重置邮件发送成功！",__ROOT__."/");
 					}else {
 						$this->error("账号不存在！");
@@ -95,7 +96,7 @@ hello;
 	
 	function dopassword_reset(){
 		if(IS_POST){
-			if(!sp_check_verify_code()){
+			if($_SESSION['_verify_']['verify']!=strtolower($_POST['verify'])){
 				$this->error("验证码错误！");
 			}else{
 				$users_model=M("Users");
@@ -113,6 +114,7 @@ hello;
 					$hash=I("post.hash");
 					$result=$users_model->where(array("user_activation_key"=>$hash))->save(array("user_pass"=>$password,"user_activation_key"=>""));
 					if($result){
+						$_SESSION['_verify_']['verify']="";
 						$this->success("密码重置成功，请登录！",U("user/login/index"));
 					}else {
 						$this->error("密码重置失败，重置码无效！");
@@ -128,7 +130,7 @@ hello;
     //登录验证
     function dologin(){
 
-    	if(!sp_check_verify_code()){
+    	if($_SESSION['_verify_']['verify']!=strtolower($_POST['verify'])){
     		$this->error("验证码错误！");
     	}
     	

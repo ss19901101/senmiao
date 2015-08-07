@@ -106,7 +106,6 @@ class ProfileController extends MemberbaseController {
     
     function avatar_upload(){
     	$config=array(
-    			'FILE_UPLOAD_TYPE' => sp_is_sae()?"Sae":'Local',//TODO 其它存储类型暂不考虑
     			'rootPath' => './'.C("UPLOADPATH"),
     			'savePath' => './avatar/',
     			'maxSize' => 512000,//500K
@@ -123,58 +122,64 @@ class ProfileController extends MemberbaseController {
     		$first=array_shift($info);
     		$file=$first['savename'];
     		$_SESSION['avatar']=$file;
-    		$this->ajaxReturn(sp_ajax_return(array("file"=>$file),"上传成功！",1),"AJAX_UPLOAD");
+    		$this->ajaxReturn(array("file"=>$file),"上传成功！",1,"AJAX_UPLOAD");
     	} else {
     		//上传失败，返回错误
-    		$this->ajaxReturn(sp_ajax_return(array(),$upload->getError(),0),"AJAX_UPLOAD");
+    		$this->ajaxReturn(array(),$upload->getError(),0,"AJAX_UPLOAD");
     	}
     }
     
     function avatar_update(){
     	if(!empty($_SESSION['avatar'])){
-    		$targ_w = intval($_POST['w']);
-    		$targ_h = intval($_POST['h']);
-    		$x = $_POST['x'];
-    		$y = $_POST['y'];
+    		$targ_w = $_POST['w'];
+    		$targ_h = $_POST['h'];
     		$jpeg_quality = 90;
     		
-    		$avatar=$_SESSION['avatar'];
     		$avatar_dir=C("UPLOADPATH")."avatar/";
-    		if(sp_is_sae()){//TODO 其它存储类型暂不考虑
-    			$src=C("TMPL_PARSE_STRING.__UPLOAD__")."avatar/$avatar";
-    		}else{
-    			$src = $avatar_dir.$avatar;
+    		$avatar=$_SESSION['avatar'];
+    		
+    		$src = $avatar_dir.$avatar;
+    		
+    		$imginfo=getimagesize($src);
+    		
+    		$ext=array("2"=>".jpg","3"=>".png");
+    		
+    		if(empty($imginfo)){
+    			$this->error("图像非法！");
     		}
     		
-    		$avatar_path=$avatar_dir.$avatar;
-    		
-    		
-    		if(sp_is_sae()){//TODO 其它存储类型暂不考虑
-    			$img_data = sp_file_read($avatar_path);
-    			$img = new \SaeImage();
-    			$size=$img->getImageAttr();
-    			$lx=$x/$size[0];
-            	$rx=$x/$size[0]+$targ_w/$size[0];
-            	$ty=$y/$size[1];
-            	$by=$y/$size[1]+$targ_h/$size[1];
-    			
-    			$img->crop($lx, $rx,$ty,$by);
-    			$img_content=$img->exec('png');
-    			sp_file_write($avatar_dir.$avatar, $img_content);
-    		}else{
-    			$image = new \Think\Image();
-    			$image->open($src);
-    			$image->crop($targ_w, $targ_h,$x,$y);
-    			$image->save($src);
+    		if(! array_key_exists($imginfo[2], $ext)){
+    			$this->error("文件类型不支持！");
     		}
     		
-    		$userid=sp_get_current_userid();
-    		$result=$this->users_model->where(array("id"=>$userid))->save(array("avatar"=>$avatar));
-    		$_SESSION['user']['avatar']=$avatar;
+    		$createmethods=array("2"=>"imagecreatefromjpeg","3"=>"imagecreatefrompng");
+    		
+    		$createmethod=$createmethods[$imginfo[2]];
+    		
+    		$img_r = $createmethod($src);
+    		
+    		imagesavealpha($img_r, true);
+    		$dst_r = ImageCreateTrueColor( $targ_w, $targ_h );
+    		
+    		$color=imagecolorallocate($dst_r,255,255,255);
+    		imagecolortransparent($dst_r,$color);
+    		imagefill($dst_r,0,0,$color);
+    		
+    		imagecopyresampled($dst_r,$img_r,0,0,$_POST['x'],$_POST['y'],
+    		$targ_w,$targ_h,$targ_w,$targ_h);
+    		
+    		$result=imagepng($dst_r,$src,0);
     		if($result){
-    			$this->success("头像更新成功！");
+    			$userid=sp_get_current_userid();
+    			$result=$this->users_model->where(array("id"=>$userid))->save(array("avatar"=>$avatar));
+    			$_SESSION['user']['avatar']=$avatar;
+    			if($result){
+    				$this->success("头像更新成功！");
+    			}else{
+    				$this->error("头像更新失败！");
+    			}
     		}else{
-    			$this->error("头像更新失败！");
+    			$this->success("头像文件保存失败！");
     		}
     		
     	}

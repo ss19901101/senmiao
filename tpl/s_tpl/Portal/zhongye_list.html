@@ -76,11 +76,7 @@
                         <div class="footer">
                         	<div class="pull-left"><span class="meta">{$vo.post_date}</span></div>
                         	<div class="pull-right">
-	                        	<a href="javascript:;"><i class="fa fa-eye"></i><span>{$vo.post_hits}</span></a>
-								<a href="{:U('article/do_like',array('id'=>$vo['object_id']))}" class="J_count_btn"><i class="fa fa-thumbs-up"></i><span class="count">{$vo.post_like}</span></a>
-								<a href="{:U('user/favorite/do_favorite',array('id'=>$vo['object_id']))}" class="J_favorite_btn" data-title="{$vo.post_title}" data-url="{:U('portal/article/index',array('id'=>$vo['tid']))}" data-key="{:sp_get_favorite_key('posts',$vo['object_id'])}">
-									<i class="fa fa-star-o"></i>
-								</a>
+
 							</div>
 							<div class="clearfix"></div>
 						</div>
