@@ -1,6 +1,6 @@
 -- ThinkCMF SQL Dump Program
 -- 
--- DATE : 2015-08-04 06:59:35
+-- DATE : 2015-08-07 19:30:07
 -- Vol : 1
 DROP TABLE IF EXISTS `sp_access`;
 CREATE TABLE `sp_access` (
@@ -301,7 +301,7 @@ INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `l
 INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('9','0','posts19','Portal-Article-index','6','1433690595','0.0.0.0');
 INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('10','0','posts20','Portal-Article-index','32','1433690561','0.0.0.0');
 INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('11','0','posts23','Portal-Article-index','26','1438446485','0.0.0.0');
-INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('12','0','posts24','Portal-Article-index','37','1438637374','0.0.0.0');
+INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('12','0','posts24','Portal-Article-index','38','1438643020','0.0.0.0');
 INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('13','0','posts26','Portal-Article-index','20','1438255116','0.0.0.0');
 INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('14','0','posts30','Portal-Article-index','2','1438616585','0.0.0.0');
 INSERT INTO sp_common_action_log ( `id`, `user`, `object`, `action`, `count`, `last_time`, `ip` ) VALUES  ('15','0','posts29','Portal-Article-index','5','1438280473','0.0.0.0');
@@ -682,45 +682,7 @@ INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_
 INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('32','1','','2015-08-02 00:11:19','','企业简介','无','0','1','2015-08-02 00:10:53','','0','2','','0','{\"thumb\":\"\",\"template\":\"jituan_page\"}','0','0','0','0');
 INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('33','1','','2015-08-02 00:12:17','<p>无</p>','集团简介','无','1','1','2015-08-02 00:11:20','','0','2','','0','{\"thumb\":\"\",\"template\":\"jituan_page\"}','0','0','0','0');
 INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('34','1','','2015-08-02 00:15:12','<p>无<br/></p>','企业文化','无','1','1','2015-08-02 00:12:19','','0','2','','0','{\"thumb\":\"\",\"template\":\"jituan_page\"}','0','0','0','0');
-INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('35','1','','2015-08-02 00:15:30','<div class=\"history\">
-		<div class=\"history-date\">
-			<ul>
-				<h2 class=\"date02\"><a href=\"#nogo\">2012年</a></h2>
-				<li class=\"green\">
-					<h3>10<span>2012</span></h3>
-					<dl>
-						<dt>公司董事长李健光荣当选为中国共产党十八大代表</dt>
-					</dl>
-				</li>
-				
-			</ul>
-		</div>
-		
-		<div class=\"history-date\">
-			<ul>
-				<h2 class=\"date02\"><a href=\"#nogo\">2010年</a></h2>
-				<li class=\"green\">
-					<h3>6<span>2010</span></h3>
-					<dl>
-						<dt>宁夏林业研究所（有限公司）变更为宁夏林业研究所股份有限公司</dt>
-					</dl>
-				</li>
-				<li class=\"green\">
-					<h3>6<span>2010</span></h3>
-					<dl>
-						<dt>成立宁夏森淼种业生物工程有限公司</dt>
-					</dl>
-				</li >
-				<li class=\"green\">
-					<h3>3.22<span>2010</span></h3>
-					<dl>
-                      <dt>中共中央总书记、国家主席、中央军委主席胡锦涛视察公司</dt>
-					</dl>
-				</li>
-				
-			</ul>
-		</div>
-  </div>','发展历程','无','1','1','2015-08-02 00:15:13','','0','2','','0','{\"thumb\":\"\",\"template\":\"jituan_lishi_page\"}','0','0','0','0');
+INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('35','1','','2015-08-02 00:15:30','<div class=\"history\">		<div class=\"history-date\">			<ul>				<h2 class=\"date02\"><a href=\"#nogo\">2012年</a></h2>				<li class=\"green\">					<h3>10<span>2012</span></h3>					<dl>						<dt>公司董事长李健光荣当选为中国共产党十八大代表</dt>					</dl>				</li>							</ul>		</div>				<div class=\"history-date\">			<ul>				<h2 class=\"date02\"><a href=\"#nogo\">2010年</a></h2>				<li class=\"green\">					<h3>6<span>2010</span></h3>					<dl>						<dt>宁夏林业研究所（有限公司）变更为宁夏林业研究所股份有限公司</dt>					</dl>				</li>				<li class=\"green\">					<h3>6<span>2010</span></h3>					<dl>						<dt>成立宁夏森淼种业生物工程有限公司</dt>					</dl>				</li >				<li class=\"green\">					<h3>3.22<span>2010</span></h3>					<dl>                      <dt>中共中央总书记、国家主席、中央军委主席胡锦涛视察公司</dt>					</dl>				</li>							</ul>		</div>  </div>','发展历程','无','1','1','2015-08-02 00:15:13','','0','2','','0','{\"thumb\":\"\",\"template\":\"jituan_lishi_page\"}','0','0','0','0');
 INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('36','1','','2015-08-02 00:16:13','   <div class=\"span3 contentBlock\">                        <img src=\"http://localhost/senmiao/data/upload/ueditor/20150802/55bd00608c84e.png\" title=\"aa.png\" alt=\"aa.png\" width=\"180\" height=\"360\"/>                        <div class=\"txt\">                            <h3>沈效东</h3>                            <h4>总经理<br/>高级研究员，硕士生导师</h4>                            <p>拥沈效东获国家科技进步二等奖1项，省部级科技进步一等奖2项、二等奖4项；撰写论文20余篇，专著2部，获得国家专利2项，编制标准4部。是宁夏“313人才工程”人选，享受国务院特殊津贴。</p>                        </div>                    </div>  <div class=\"span3 contentBlock\">                        <img src=\"http://localhost/senmiao/data/upload/ueditor/20150802/55bd00608c84e.png\" title=\"aa.png\" alt=\"aa.png\" width=\"180\" height=\"360\"/>                        <div class=\"txt\">                            <h3>沈效东</h3>                            <h4>总经理<br/>高级研究员，硕士生导师</h4>                            <p>拥沈效东获国家科技进步二等奖1项，省部级科技进步一等奖2项、二等奖4项；撰写论文20余篇，专著2部，获得国家专利2项，编制标准4部。是宁夏“313人才工程”人选，享受国务院特殊津贴。</p>                        </div>                    </div>  <div class=\"span3 contentBlock\">                        <img src=\"http://localhost/senmiao/data/upload/ueditor/20150802/55bd00608c84e.png\" title=\"aa.png\" alt=\"aa.png\" width=\"180\" height=\"360\"/>                        <div class=\"txt\">                            <h3>沈效东</h3>                            <h4>总经理<br/>高级研究员，硕士生导师</h4>                            <p>拥沈效东获国家科技进步二等奖1项，省部级科技进步一等奖2项、二等奖4项；撰写论文20余篇，专著2部，获得国家专利2项，编制标准4部。是宁夏“313人才工程”人选，享受国务院特殊津贴。</p>                        </div>                    </div>  <div class=\"span3 contentBlock\">                        <img src=\"http://localhost/senmiao/data/upload/ueditor/20150802/55bd00608c84e.png\" title=\"aa.png\" alt=\"aa.png\" width=\"180\" height=\"360\"/>                        <div class=\"txt\">                            <h3>沈效东</h3>                            <h4>总经理<br/>高级研究员，硕士生导师</h4>                            <p>拥沈效东获国家科技进步二等奖1项，省部级科技进步一等奖2项、二等奖4项；撰写论文20余篇，专著2部，获得国家专利2项，编制标准4部。是宁夏“313人才工程”人选，享受国务院特殊津贴。</p>                        </div>                    </div>  <div class=\"span3 contentBlock\">                        <img src=\"http://localhost/senmiao/data/upload/ueditor/20150802/55bd00608c84e.png\" title=\"aa.png\" alt=\"aa.png\" width=\"180\" height=\"360\"/>                        <div class=\"txt\">                            <h3>沈效东</h3>                            <h4>总经理<br/>高级研究员，硕士生导师</h4>                            <p>拥沈效东获国家科技进步二等奖1项，省部级科技进步一等奖2项、二等奖4项；撰写论文20余篇，专著2部，获得国家专利2项，编制标准4部。是宁夏“313人才工程”人选，享受国务院特殊津贴。</p>                        </div>                    </div>','企业领导','无','1','1','2015-08-02 00:15:32','','0','2','','0','{\"thumb\":\"\",\"template\":\"jituan_lingdao_page\"}','0','0','0','0');
 INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('37','1','','2015-08-04 04:34:53','<p>无</p>','景区简介','无','1','1','2015-08-04 04:34:24','','0','2','','0','{\"thumb\":\"\",\"template\":\"lvyou_page\"}','0','0','0','0');
 INSERT INTO sp_posts ( `id`, `post_author`, `post_keywords`, `post_date`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `post_modified`, `post_content_filtered`, `post_parent`, `post_type`, `post_mime_type`, `comment_count`, `smeta`, `post_hits`, `post_like`, `istop`, `recommended` ) VALUES  ('38','1','无','2015-08-04 05:32:12','<p>无</p>','照片墙','','1','1','2015-08-04 05:31:18','','0','2','','0','{\"thumb\":\"\",\"template\":\"lvyou_page\"}','0','0','0','0');
@@ -744,7 +706,7 @@ CREATE TABLE `sp_role` (
   KEY `status` (`status`)
 ) COLLATE='utf8_general_ci' ENGINE=MyISAM;
 INSERT INTO sp_role ( `id`, `name`, `pid`, `status`, `remark`, `create_time`, `update_time`, `listorder` ) VALUES  ('1','超级管理员','0','1','拥有网站最高管理员权限！','1329633709','1329633709','0');
-INSERT INTO sp_role ( `id`, `name`, `pid`, `status`, `remark`, `create_time`, `update_time`, `listorder` ) VALUES  ('2','xxx','','1','xxxx','1438638800','0','0');
+INSERT INTO sp_role ( `id`, `name`, `pid`, `status`, `remark`, `create_time`, `update_time`, `listorder` ) VALUES  ('2','xxx','0','1','xxxx','1438638800','0','0');
 DROP TABLE IF EXISTS `sp_role_user`;
 CREATE TABLE `sp_role_user` (
   `role_id` mediumint(9) unsigned DEFAULT NULL,
@@ -863,4 +825,4 @@ CREATE TABLE `sp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`)
 ) COLLATE='utf8_general_ci' ENGINE=MyISAM;
-INSERT INTO sp_users ( `id`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `avatar`, `sex`, `birthday`, `signature`, `last_login_ip`, `last_login_time`, `create_time`, `user_activation_key`, `user_status`, `role_id`, `score`, `user_type` ) VALUES  ('1','senmiao','c535018ee9463a466359235aed4dc8a675fbbbe88c0b89af','admin','350988801@qq.com','','','0','0000-00-00','','0.0.0.0','2015-08-04 06:59:18','2015-01-18 02:35:18','','1','1','0','1');
+INSERT INTO sp_users ( `id`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `avatar`, `sex`, `birthday`, `signature`, `last_login_ip`, `last_login_time`, `create_time`, `user_activation_key`, `user_status`, `role_id`, `score`, `user_type` ) VALUES  ('1','senmiao','c535018ee9463a466359235aed4dc8a675fbbbe88c0b89af','admin','350988801@qq.com','','','0','0000-00-00','','0.0.0.0','2015-08-07 19:29:54','2015-01-18 02:35:18','','1','1','0','1');
