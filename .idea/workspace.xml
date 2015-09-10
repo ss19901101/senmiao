@@ -4,6 +4,8 @@
     <list default="true" id="84f99631-8459-4584-9de5-92f1fc2b4513" name="Default" comment="" />
     <ignored path="senmiao.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,82 +25,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="29" selection-start="1514" selection-end="1519" vertical-scroll-proportion="-0.12251656" vertical-offset="1814" max-vertical-offset="6630">
+            <state vertical-scroll-proportion="-9.884615" vertical-offset="678" max-vertical-offset="1496">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="29" />
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8446" max-vertical-offset="9027">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-ui.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/jquery-ui.min.js">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhaopin_page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhaopin_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="35" selection-start="944" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jingguan_list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="35" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.0" vertical-offset="2816" max-vertical-offset="3660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jingguan_page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="34" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="1397" max-vertical-offset="2040">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jingguan_zizhi.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_zizhi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="34" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="2910">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jituan_lingdao_page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lingdao_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="33" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="2580">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jituan_lishi_page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lishi_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="2010">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jituan_page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="34" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="2040">
+            <state vertical-scroll-proportion="0.3873874" vertical-offset="499" max-vertical-offset="1054">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -126,42 +81,53 @@
         <option value="$PROJECT_DIR$/tpl/simplebootx/Public/nav.html" />
         <option value="$PROJECT_DIR$/tpl/simplebootx/Public/css/style.css" />
         <option value="$PROJECT_DIR$/application/Common/Common/function.php" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/nav.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/page.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_zizhi.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/scripts.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/js/FancyZoomHTML.js" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/head.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_page.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/hooks.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/article.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/style.css" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_list.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/footer.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/contact1.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_list.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/lanrenzhijia.css" />
+        <option value="$PROJECT_DIR$/simplewind/Core/Library/Think/Verify.class.php" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/head.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/js/scripts1.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/js/FancyZoomHTML.js" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/history.css" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/contact.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/scripts.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/style.css" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lingdao_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lishi_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/list.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/gouqi_page.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_page.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_zizhi.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_page.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lingdao_page.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/list.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/lanrenzhijia.css" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lishi_page.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/lvyou_page.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/slippry/slippry.css" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/xinwen_lingdao.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/404.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/404.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jiu_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jiu_list.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/nav.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/gouqi_list.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/xinwen_yaowen.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_list.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/zhaopin_page.html" />
-        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/history.css" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/xinwen_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/lvyou_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_list.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/article.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_page.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/footer.html" />
         <option value="$PROJECT_DIR$/tpl/s_tpl/Portal/index.html" />
+        <option value="$PROJECT_DIR$/tpl/s_tpl/Public/css/slippry/slippry.css" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,14 +158,14 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -211,7 +177,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,15 +195,128 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s_tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s_tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s_tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplewind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="senmiao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php5.5.12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.30583334" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -247,18 +325,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\senmiao\tpl\s_tpl\Portal" />
-      <recent name="C:\wamp\www\senmiao\tpl\s_tpl\Public\js" />
-      <recent name="C:\wamp\www\senmiao\install" />
-      <recent name="C:\wamp\www\senmiao\tpl\s_tpl\Public\images" />
-      <recent name="C:\wamp\www\senmiao\tpl\s_tpl\Public\css" />
+      <recent name="$PROJECT_DIR$/tpl/s_tpl/Public/images" />
+      <recent name="$PROJECT_DIR$/tpl/s_tpl/Portal" />
+      <recent name="$PROJECT_DIR$/tpl/s_tpl/Public" />
+      <recent name="$PROJECT_DIR$/tpl/s_tpl/Public/js" />
+      <recent name="$PROJECT_DIR$/tpl/s_tpl/Public/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tpl/s_tpl/Public/images" />
       <recent name="C:\wamp\www\senmiao\install" />
       <recent name="C:\wamp\www\senmiao\data\backup\20150804_1" />
       <recent name="C:\wamp\www\senmiao\tpl\s_tpl\Public\css" />
       <recent name="C:\wamp\www\senmiao" />
-      <recent name="C:\wamp\www\senmiao\tpl\s_tpl\Public" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -276,7 +354,19 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -292,27 +382,14 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" SSL_PROTOCOLS="all">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="84f99631-8459-4584-9de5-92f1fc2b4513" name="Default" comment="" />
       <created>1421564935174</created>
+      <option name="number" value="Default" />
       <updated>1421564935174</updated>
     </task>
     <servers />
@@ -338,29 +415,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="0" y="23" width="1366" height="678" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12188729" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18029115" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2912482" sideWeight="0.4985294" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5221843" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2408492" sideWeight="0.4985294" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14782609" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12188729" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.019635344" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5221843" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -395,6 +473,9 @@
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -405,7 +486,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <PATH>
@@ -420,272 +504,331 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images-global/zoom/zoom-caption-r.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images-global/zoom/zoom-caption-l.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/FancyZoom.js">
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/jquery-ui.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="0" selection-start="7387" selection-end="7435" vertical-scroll-proportion="1.5489864" vertical-offset="4183" max-vertical-offset="21960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/images/icon/logo-18.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/images/flash_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/images/icon/upload-pic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/images/headicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/FancyZoomHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="283" selection-end="339" vertical-scroll-proportion="-4.83871" vertical-offset="0" max-vertical-offset="9570" />
+        <state vertical-scroll-proportion="-6.4946237" vertical-offset="4746" max-vertical-offset="5423">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/js/wind.js">
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23370" />
+        <state vertical-scroll-proportion="12.230769" vertical-offset="318" max-vertical-offset="850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_page.html">
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/jump.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="40" selection-start="1627" selection-end="1642" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="2010" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/slippry.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/lanrenzhijia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="395" selection-end="477" vertical-scroll-proportion="0.44701988" vertical-offset="120" max-vertical-offset="2820" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/simpleboot/bootstrap/css/bootstrap-responsive.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/simpleboot/themes/cmf/theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="71" selection-start="290" selection-end="291" vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="560" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/hooks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.7692308" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Comment/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Comment/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="286" selection-end="289" vertical-scroll-proportion="0.49668875" vertical-offset="0" max-vertical-offset="2070" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="264" selection-end="264" vertical-scroll-proportion="2.3076923" vertical-offset="240" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="989" selection-end="989" vertical-scroll-proportion="4.5384617" vertical-offset="1107" max-vertical-offset="2550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="48" selection-start="2327" selection-end="2327" vertical-scroll-proportion="-10.769231" vertical-offset="1560" max-vertical-offset="3060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Portal/Common/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="3" selection-start="12074" selection-end="12076" vertical-scroll-proportion="-17.692308" vertical-offset="9240" max-vertical-offset="14160" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/list_masonry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="22" selection-start="849" selection-end="2622" vertical-scroll-proportion="-8.461538" vertical-offset="600" max-vertical-offset="2070" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="43" selection-start="3135" selection-end="3150" vertical-scroll-proportion="-25.384615" vertical-offset="1410" max-vertical-offset="3660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="688" selection-end="688" vertical-scroll-proportion="-11.205129" vertical-offset="223" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/contact1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="35" selection-start="5528" selection-end="5528" vertical-scroll-proportion="-10.0" vertical-offset="3120" max-vertical-offset="3750" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/history.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="1260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/lvyou_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1435" selection-end="1435" vertical-scroll-proportion="-9.230769" vertical-offset="720" max-vertical-offset="2040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/avatar/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/ueditor/20150613/557c33e22a900.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/ueditor/20150613/557c33e22f0e1.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/ueditor/54e05abe06610.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/ueditor/54d85e54da772.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/upload/ueditor/20150802/55bd00608c84e.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backup/20150804_1/spcmf.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="39" selection-end="152" vertical-scroll-proportion="56.4" vertical-offset="3120" max-vertical-offset="26340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="43" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.0" vertical-offset="5400" max-vertical-offset="13140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="4" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="1865" max-vertical-offset="15930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/slippry/slippry.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="457" column="20" selection-start="11563" selection-end="11563" vertical-scroll-proportion="0.0" vertical-offset="13536" max-vertical-offset="19530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/jquery-ui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhaopin_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="35" selection-start="944" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1410">
-          <folding />
+        <state vertical-scroll-proportion="-16.538462" vertical-offset="12" max-vertical-offset="595">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/history.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="16" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="4800" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2196" max-vertical-offset="2754">
+          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1593" max-vertical-offset="2125">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="153" max-vertical-offset="1564">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_zizhi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.692307" vertical-offset="2" max-vertical-offset="1734">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/xinwen_lingdao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8461537" vertical-offset="70" max-vertical-offset="1989">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/backup/spcmf.sql/spcmf.sql_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37264">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.384615" vertical-offset="135" max-vertical-offset="850">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.653847" vertical-offset="8" max-vertical-offset="663">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jiu_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="340" max-vertical-offset="1292">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jiu_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.865385" vertical-offset="1558" max-vertical-offset="2159">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/gouqi_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="286" max-vertical-offset="1292">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/js/jquery.pin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2040">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/logo.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/flash_back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/gouqi_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="2176">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/xinwen_yaowen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1411">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhaopin_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3846154" vertical-offset="4" max-vertical-offset="1955">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/zhongye_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="51" max-vertical-offset="1105">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/xinwen_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="391" max-vertical-offset="1292">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/list_masonry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="31.692308" vertical-offset="824" max-vertical-offset="1700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/lvyou_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.0769231" vertical-offset="556" max-vertical-offset="1122">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="561">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.269231" vertical-offset="131" max-vertical-offset="663">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="35" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.0" vertical-offset="2816" max-vertical-offset="3660">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="323" max-vertical-offset="2074">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="323" max-vertical-offset="1717">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1292">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="578">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/img05.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/line04.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/default_tupian4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/default_tupian1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="544">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="34" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="1397" max-vertical-offset="2040">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1105">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jingguan_zizhi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="34" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="2910">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/lvyou.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lingdao_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="33" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="2580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_lishi_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/jituan_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="34" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="2040">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/zhognye.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Portal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="29" selection-start="1514" selection-end="1519" vertical-scroll-proportion="-0.12251656" vertical-offset="1814" max-vertical-offset="6630">
+        <state vertical-scroll-proportion="-9.884615" vertical-offset="678" max-vertical-offset="1496">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/images/jingguan.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/slippry/slippry.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2065403" vertical-offset="6844" max-vertical-offset="11424">
+          <caret line="478" column="15" selection-start-line="478" selection-start-column="15" selection-end-line="478" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/s_tpl/Public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8446" max-vertical-offset="9027">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3873874" vertical-offset="499" max-vertical-offset="1054">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+    <tc_include file="Public:head" />
+</head>
+<body class="body-white">
+<tc_include file="Public:nav" />
+    <div class="container tc-main "style="" >
+    <div class="row">
+        <div class="span3 nav-left" style="column-rule: #11dddd;  ">
+            <div class="nav-collapse collapse pined"  style=" ">
+
+                <h3 style="color:#1963aa ">新闻中心</h3>
+                <hr>
+                <?php
+                    $id=4;
+			        $effected_id=4;
+			        $myid=4;
+		  	        $filetpl="<a href='\$href' target='\$target'>\$label</a>";
+                $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>";
+                $ul_class="dropdown-menu" ;
+                $li_class="" ;
+                $style="nav nav-list ";
+                $showlevel=6;
+                $dropdown='dropdown';
+                echo sp_get_menu(9,$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+                ?>
+
+
+            </div>
+
+        </div>
+		<div class="span9">
+            <h3 style="color:#1963aa ">森淼要闻</h3>
+            <hr>
+
+			<div class="">
+				<php>
+					$lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;",10);
+				</php>
+				<volist name="lists['posts']" id="vo">
+				<php>
+					$smeta=json_decode($vo['smeta'], true);
+				</php>
+				
+				<div class="list-boxes">
+					<h2><a href="{:leuu('article/index',array('id'=>$vo['tid']))}">{$vo.post_title}</a></h2>
+					<p>{$vo.post_excerpt|msubstr=0,256}</p>
+					<div>
+						<div class="pull-left">
+
+						</div>
+						<a class="btn btn-warning pull-right" href="{:leuu('article/index',array('id'=>$vo['tid']))}">查看更多</a>
+					</div>
+				</div>
+				</volist>
+				
+			</div>
+			<div class="pagination">
+				<ul>
+					{$lists['page']}
+				</ul>
+			</div>
+		</div>
+    </div>
+    
+    
+    <tc_include file="Public:footer" />
+</div>
+
+
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+</html>

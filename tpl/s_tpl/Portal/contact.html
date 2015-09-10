@@ -18,11 +18,11 @@
 <body class="body-white">
 <tc_include file="Public:nav" />
 
-<div class="section slice no-padding">
+<div class="section slice no-padding"  style="margin-top: 70px">
         <div id="mapCanvas" class="map-canvas no-margin" style="height:400px;">
-        	<script type="text/javascript">
-			   var map = new BMap.Map("mapCanvas");            // 创建Map实例
-			var point = new BMap.Point("121.449222", "31.193348");    // 创建点坐标
+        <script type="text/javascript">
+			var map = new BMap.Map("mapCanvas");            // 创建Map实例
+			var point = new BMap.Point("106.292194", "38.431364");    // 创建点坐标
 			map.centerAndZoom(point,15);                // 初始化地图,设置中心点坐标和地图级别。
 			map.enableScrollWheelZoom();                  //启用滚轮放大缩小
 			//添加缩放控件
@@ -32,7 +32,7 @@
 			
 			var marker = new BMap.Marker(point); // 创建标注 
 			map.addOverlay(marker); // 将标注添加到地图中
-			var infoWindow = new BMap.InfoWindow("ThinkCMF<br/><span class=''>地址：上海市徐汇区斜土路2601号</span>"); // 创建信息窗口对象
+			var infoWindow = new BMap.InfoWindow("森淼集团<br/><span class=''>地址：宁夏银川市兴庆区清河街六盘山路路口</span>"); // 创建信息窗口对象
 			marker.openInfoWindow(infoWindow);
 			   </script>
         </div>
@@ -66,7 +66,7 @@
                                     <div class="form-group">
 		                                <label>验证码</label>
 		                                <input type="text" class="span3" placeholder="please enter the code"  name="verify" autocomplete="off">
-		                                {:sp_verifycode_img('code_len=4&font_size=20&width=238&height=34&font_color=&background=','style="cursor: pointer;vertical-align: top;" title="点击获取"')}
+                                        {:sp_verifycode_img('code_len=4&font_size=20&width=238&height=34&font_color=&background=','style="cursor: pointer;vertical-align: top;" title="点击获取"')}
 		                            </div>
                                 </div>
                             </div>
@@ -79,26 +79,26 @@
                                 <h3 class="section-title">联系方式</h3>
                                 <div class="contact-info">
                                     <h5>地址</h5>
-                                    <p>上海市徐汇区斜土路2601号</p>
-                                    
+                                    <p>宁夏银川市兴庆区清河街六盘山路交界处</p>
+
                                     <h5>邮箱</h5>
                                     <p>{$site_admin_email}</p>
                                     
                                     <h5>电话</h5>
-                                    <p>+021 3112 0248</p>
+                                    <p>+0951 4074946</p>
                                 </div>
                             </div>
                             <div class="span3">
                                 <h3>Contact</h3>
                                 <div class="contact-info">
                                     <h5>Address</h5>
-                                    <p>NO.2601  Xie Tu Road, Shanghai China</p>
+                                    <p>NO.2601  Xie Tu Road,Yinchuan Ningxia China</p>
                                     
                                     <h5>Email</h5>
                                     <p>{$site_admin_email}</p>
                                     
                                     <h5>Phone</h5>
-                                    <p>+8621 3112 0248</p>
+                                    <p>+86 951 4074946</p>
                                 </div>
                             </div>
                         </div>
@@ -107,16 +107,14 @@
                        点击以下QQ图标，免加好友即时洽谈合作
                         </p>
                         <div class="social-media">
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=479923197&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:479923197:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=479923197&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:479923197:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=479923197&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:479923197:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=479923197&site=qq&menu=yes"><img border="0" src="http://pub.idqqimg.com/qconn/wpa/button/button_111.gif" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
                         </div>
                     </div>
                 </div>
-   <tc_include file="Public:footer" />
+
 </div>
 
 <tc_include file="Public:scripts" />
-
+<tc_include file="Public:footer" />
 </body>
 </html>

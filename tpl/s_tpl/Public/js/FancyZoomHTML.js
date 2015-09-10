@@ -7,7 +7,7 @@
 function insertZoomHTML() {
 
 	// All of this junk creates the three <div>'s used to hold the closebox, image, and zoom shadow.
-    var zoomImagesURI="../../../../images-global/zoom/"
+    var zoomImagesURI="/senmiao/images-global/zoom/"
 	var inBody = document.getElementsByTagName("body").item(0);
 	
 	// WAIT SPINNER

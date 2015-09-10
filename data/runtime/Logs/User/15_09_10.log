@@ -1,0 +1,6 @@
+[ 2015-09-10T12:44:09+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005180s ]
+

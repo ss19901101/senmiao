@@ -8,19 +8,20 @@
 {:hook('footer')}
       <div id="footer" style="">
          <div class="container">
-             <row><h4 style="color: #1963aa  ">友情链接</h4>
+
+
+                 <h4 style="color: #1963aa  ">友情链接</h4>
                  <php>$links=sp_getlinks();</php>
                  <foreach name="links" item="vo">
-                     <a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>
+                     <a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>&nbsp&nbsp
                  </foreach>
-             </row>
-
              <br>
-             <br>
-             <p>
-                 版权所有：宁夏林业研究所股份有限公司  x审字  <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow" target="_blank">备案号</a>.<br/>
 
-             </p>
+             <div style="text-align: center"><p>
+
+                 版权所有：宁夏林业研究所股份有限公司  宁ICP备15000247号 <a href="http://localhost:8888/senmiao/page/index/id/3">联系我们</a>
+             </p></div>
+             <br>
          </div>
 
       </div>

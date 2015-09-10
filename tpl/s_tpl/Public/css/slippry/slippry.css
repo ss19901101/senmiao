@@ -454,9 +454,10 @@
   transition: padding 600ms ease;
 }
 .mainPageBigBlock{
-background-color: #f8f8f8 ;
+//background-color:  ;
 margin-bottom: -50px;
 margin-top: 75px;
+    width:100%
 }
 .mainPageBigBlockTitle{
    padding-top: 10px;
@@ -470,6 +471,10 @@ margin-top: 75px;
     padding-right: 20px;
     float:left;
     font-size: 24px;
+}
+
+.backImg{
+    background-image: url("../../images/body_bg.jpg");
 }
 .mainPageBlock{
     padding-top: 10px;
@@ -494,8 +499,8 @@ margin-top: 75px;
     cursor: pointer;
     margin-bottom: 30px;
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .littleBlock .header {
     padding: 3px 6px 3px 6px;
@@ -533,7 +538,9 @@ margin-top: 75px;
     overflow: hidden;
     line-height: 24px;
 }
-.littleBlock .header h3 a,
+.littleBlock .header h3 a{
+    color:#000;
+}
 .littleBlock .header h3 a:focus,
 .littleBlock .header h3 a:hover {
     color: #428bca;
@@ -560,12 +567,13 @@ margin-top: 75px;
     float:left;
     margin:0px;
     width: 80px;
+    padding: 0px;
 
 }
 .mainPageBlockTitle a h1{
     margin:0px;
-    padding-left: 0px;
-    padding-top:4px;
+    padding-right:0px;
+    pading-top:5px;
     font-size: 18px
 }
 
@@ -643,4 +651,17 @@ margin-top: 75px;
     float: left;
     margin-left:30px ;
     margin-bottom:40px;
+}
+.pined{
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+    width: 160px;
+    padding: 10px;
+    background-color:ghostwhite ;
+
+    font-size: 16px;
+}
+.PageContainer {
+    margin-top: 50px;
 }
