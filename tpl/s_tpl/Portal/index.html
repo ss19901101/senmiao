@@ -52,12 +52,12 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
 	</li>
 	</foreach>
 </ul>
-
-<div class="container backImg ">
+<div class="backImg">
+<div class="container">
        <div class="row">
             <div class="span6">
                 <php>
-                    $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:listorder asc;limit:3;");
+                    $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:post_date DESC;limit:3;");
                 </php>
                 <div class="mainPageBlock">
                     <div class="mainPageBlockTitle">
@@ -184,7 +184,7 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
         </div>
     </div>
 </div>
-
+</div>
 
 
 <tc_include file="Public:scripts"/>

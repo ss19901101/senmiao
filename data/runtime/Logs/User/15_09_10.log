@@ -4,3 +4,27 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
 INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001501s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.005180s ]
 
+[ 2015-09-10T21:38:42+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+
+[ 2015-09-10T21:38:50+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+
+[ 2015-09-10T21:41:47+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+
+[ 2015-09-10T21:42:07+08:00 ] ::1 /senmiao/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+

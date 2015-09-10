@@ -416,6 +416,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+    background-color: #c1c1c2;
 }
 .sy-pager li.sy-active a {
   background-color: #E59149;
@@ -474,7 +475,9 @@ margin-top: 75px;
 }
 
 .backImg{
-    background-image: url("../../images/body_bg.jpg");
+    background-image: url("../../images/body_bg.jpg") ;
+    background-size: 100%;
+    padding-bottom: 100px;
 }
 .mainPageBlock{
     padding-top: 10px;
@@ -664,4 +667,7 @@ margin-top: 75px;
 }
 .PageContainer {
     margin-top: 50px;
+}
+.sy-pager{
+
 }

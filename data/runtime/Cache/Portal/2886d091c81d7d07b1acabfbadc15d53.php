@@ -96,8 +96,8 @@
 		<a href="<?php echo ($vo["slide_url"]); ?>"><img src="<?php echo sp_get_asset_upload_path($vo['slide_pic']);?>" alt=""></a>
 	</li><?php endforeach; endif; ?>
 </ul>
-
-<div class="container backImg ">
+<div class="backImg">
+<div class="container">
        <div class="row">
             <div class="span6">
                 <?php $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:listorder asc;limit:3;"); ?>
@@ -219,7 +219,7 @@
         </div>
     </div>
 </div>
-
+</div>
 
 
 <script type="text/javascript">
