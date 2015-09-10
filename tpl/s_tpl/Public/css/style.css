@@ -7,6 +7,7 @@ position: fixed;
 .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
 margin-right: 0px;
 margin-left: 0px;
+font-family: "Microsoft YaHei", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar .nav .user{

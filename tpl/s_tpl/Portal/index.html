@@ -60,10 +60,12 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
                     $lastnews=sp_sql_posts("cid:1;field:post_title,post_excerpt,post_date,tid,smeta;order:post_date DESC;limit:3;");
                 </php>
                 <div class="mainPageBlock">
-                    <div class="mainPageBlockTitle">
-                        <h1>新闻动态</h1>
-                        <a href="#"><h1>MORE</h1></a>
+                    <div class="mainPageBlockTop">
+                        <div class="mainPageBlockTitle">新闻动态</div>
+
+
                     </div>
+                    <div>
                     <foreach name="lastnews" item="vo">
                         <php>
                             $smeta=json_decode($vo['smeta'],true);
@@ -93,13 +95,14 @@ $home_slides=empty($home_slides)?$default_home_slides:$home_slides;
                         </div>
 
                     </foreach>
+                    </div>
                 </div>
             </div>
             <div class="span6">
                 <div class="mainPageBlock">
-                    <div class="mainPageBlockTitle">
-                        <h1>视频展示</h1>
-                        <a href=""><h1>MORE</h1></a>
+                    <div class="mainPageBlockTop">
+                        <div class="mainPageBlockTitle">视频展示</div>
+
                     </div>
                     <div class="mainPageBlockConent">
                         <div class="video">

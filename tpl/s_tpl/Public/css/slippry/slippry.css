@@ -401,10 +401,12 @@
   *zoom: 1;
   display: block;
   width: 100%;
-  margin: 1em 0 0;
-  padding: 0;
+  margin: 0;
   list-style: none;
   text-align: center;
+  background-image:url("../../images/sy-pager-back.png");
+  background-size: 100%;
+     padding:10px 0 10px;
 }
 .sy-pager li {
   display: inline-block;
@@ -416,7 +418,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-    background-color: #c1c1c2;
+  background-color: #fff;
 }
 .sy-pager li.sy-active a {
   background-color: #E59149;
@@ -425,7 +427,7 @@
   width: 100%;
   height: 100%;
   display: block;
-  background-color: #cccccc;
+  background-color: #fff;
   text-indent: -9999px;
   -webkit-background-size: 2em;
   -moz-background-size: 2em;
@@ -475,7 +477,8 @@ margin-top: 75px;
 }
 
 .backImg{
-    background-image: url("../../images/body_bg.jpg") ;
+    background-image: url("../../images/bg_img.png") ;
+    background-size: 100%;
     background-size: 100%;
     padding-bottom: 100px;
 }
@@ -487,13 +490,39 @@ margin-top: 75px;
     height: 270px;
     margin-bottom: 30px;
 }
-.mainPageBlockTitle{
+.mainPageBlockTop{
     font-family:NSimSun;
-    height: 50px;
-    border-bottom: 1px solid #428bca;
-    margin-top: 20px;
+    background-color:   #eeeeee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+    -webkit-box-shadow: #fff 0px 3px 5px;
+    -moz-box-shadow: #fff 0px 3px 5px;
+    box-shadow:#fff 0px 3px 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px
 }
 
+.mainPageBlockTitle{
+    background-color: #0ba2e7;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 30px;
+    width: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px ;
+    -webkit-box-shadow: #fff 0px 3px 3px;
+    -moz-box-shadow: #fff 0px 3px 3px;
+    box-shadow: #fff 0px 3px 3px;
+    font-family: "Microsoft YaHei", "MicrosoftJhengHei";
+    color: #fff;
+
+}
 .littleBlock {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -667,7 +696,4 @@ margin-top: 75px;
 }
 .PageContainer {
     margin-top: 50px;
-}
-.sy-pager{
-
 }
